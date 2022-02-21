@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "GT America";
+  src: url(https://d3170a3msf25m.cloudfront.net/assets/GTAmerica-Regular.woff2) format("truetype");
+}
+* { font-family: "GT America", sans-serif }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +17,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 10px 35px;
+  border-bottom: 1px solid #80808036;
+  background: white;
+}
+
+header .logo {
+  width: 110px;
+  border-radius: 10px;
+  fill: red;
+}
+
+header .title {
+  padding-left: 10px;
+}
+
+.subTitle {
+  padding-top: 20px;
+  margin-left: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 90px;
+}
+
