@@ -1,7 +1,6 @@
 import "./ProductCard.css"
 
 export const ProductCard = ({product}) => {
-    console.log(product);
 
     return (
         <div className="productCardContainer">
@@ -9,7 +8,7 @@ export const ProductCard = ({product}) => {
                 <div className="imageContainer">
                     <img src={product.img}/>
                 </div>
-                <div className={"details"}>
+                <div className="details">
                     <span>{product.description}</span>
                     <span>{product.brand}</span>
                     <span>{product.size}</span>

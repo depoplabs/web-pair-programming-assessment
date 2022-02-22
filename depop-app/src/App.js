@@ -12,7 +12,7 @@ function App() {
                     </path>
                     </svg>
                 </span>
-                <p className={"title"}>
+                <p className="title">
                     <b>Pair Programming Assessment 2022</b>
                     <br/>
                     <a
@@ -24,7 +24,7 @@ function App() {
                 </p>
 
             </header>
-            <div className={"container"}>
+            <div className="container">
                 <ProductsContainer/>
             </div>
         </div>
