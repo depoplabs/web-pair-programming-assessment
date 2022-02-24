@@ -21,10 +21,10 @@ A static API for the product data is available at: <https://5c78274f6810ec00148d
 o A readme detailing how to run the project and any notes you'd like to leave is always appreciated
 ### Product Requirements
 
-- Retrieve data from the given API endpoint;
 - Display the list of products;
-- Add functionality to like/unlike a product;
+- Add a loading state
 - Add functionality to show/hide sold items;
+- Add functionality to like/unlike a product;
 - Add a dropdown list showing the liked product as shown in the design
 
 ### Tips
