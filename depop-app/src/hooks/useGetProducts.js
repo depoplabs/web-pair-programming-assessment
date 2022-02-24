@@ -1,24 +1,22 @@
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 
 export const useGetProducts = (url) => {
-    const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState([]);
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const res = await fetch(url);
-                if (!res.ok) {
-                    throw new Error(res.statusText);
-                }
-                const data = await res.json();
-                setProducts(data);
-            } catch (exception) {
-            }
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const res = await fetch(url);
+        if (!res.ok) {
+          throw new Error(res.statusText);
         }
+        const data = await res.json();
+        setProducts(data);
+      } catch (exception) {}
+    };
 
-        fetchData();
-    }, [url])
+    fetchData();
+  }, [url]);
 
-    return {products}
-}
-
+  return { products };
+};
