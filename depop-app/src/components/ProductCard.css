@@ -1,0 +1,20 @@
+.productCardContainer {
+  width: 25%;
+}
+.productCardContainer .productCard {
+  margin: 15px;
+  box-shadow: 1px 1px 10px -2px #00000030;
+}
+
+.productCard .imageContainer img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.productCard .details {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+}
