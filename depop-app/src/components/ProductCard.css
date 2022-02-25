@@ -6,6 +6,23 @@
   box-shadow: 1px 1px 10px -2px #00000030;
 }
 
+.productCard .imageContainer {
+  position: relative;
+}
+
+.productCard .imageContainer .soldOverlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(38, 38, 38, 0.3);
+  object-fit: cover;
+  color: rgb(255, 218, 10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .productCard .imageContainer img {
   object-fit: cover;
   width: 100%;
