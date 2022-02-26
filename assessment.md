@@ -29,8 +29,8 @@ o A readme detailing how to run the project and any notes you'd like to leave is
 
 ### Tips
 
-- Consider what makes a good application that will go into production
-- A tested component is a reliable component!
+- At Depop we use React hooks over class components
+- We have already created some components for you to use 
 
 Good luck and enjoy!
 

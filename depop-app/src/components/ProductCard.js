@@ -6,6 +6,11 @@ export const ProductCard = ({ product }) => {
       <div className="productCard">
         <div className="imageContainer">
           <img src={product.img} />
+          {product.sold && (
+            <div className="soldOverlay">
+              <b>SOLD</b>
+            </div>
+          )}
         </div>
         <div className="details">
           <span>{product.description}</span>
