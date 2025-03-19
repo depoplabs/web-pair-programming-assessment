@@ -5,7 +5,7 @@ export const ProductCard = ({ product }) => {
     <div className="productCardContainer">
       <div className="productCard">
         <div className="imageContainer">
-          <img src={product.img} />
+          <img src="https://placehold.co/300x300" alt="" />
           {product.sold && (
             <div className="soldOverlay">
               <b>SOLD</b>

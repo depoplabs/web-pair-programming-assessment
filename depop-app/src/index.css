@@ -30,6 +30,7 @@ header {
   padding: 10px 35px;
   border-bottom: 1px solid #80808036;
   background: white;
+  z-index: 2;
 }
 
 header .logo {
