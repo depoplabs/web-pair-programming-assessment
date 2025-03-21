@@ -19,7 +19,10 @@ A simple design for this can be found here for guidance: <https://drive.google.c
 A static API for the product data is available at: <https://5c78274f6810ec00148d0ff1.mockapi.io/api/v1/products>
 
 o A readme detailing how to run the project and any notes you'd like to leave is always appreciated
+
 ### Product Requirements
+
+It's not important that you complete this set of requirements. We're more so interested in understanding you better, e.g. your approach, your reasoning and how you communicate.
 
 - Display the list of products;
 - Add a loading state
